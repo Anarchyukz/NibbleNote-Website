@@ -1,0 +1,123 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f59e0b">
+  <title>PantryPal — Your recipes, organised</title>
+  <meta name="description" content="PantryPal is a free, open-source Android recipe app for importing recipes, planning meals and creating shopping lists.">
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: system-ui, sans-serif;
+      background: #111318;
+      color: #f7f7f7;
+      line-height: 1.6;
+    }
+    header, main, footer {
+      width: min(900px, 90%);
+      margin: auto;
+    }
+    header {
+      padding: 26px 0;
+      font-weight: 800;
+      font-size: 1.4rem;
+    }
+    header span { color: #f59e0b; }
+    .hero { padding: 65px 0 55px; }
+    h1 { font-size: clamp(2.5rem, 8vw, 4.5rem); line-height: 1.1; }
+    h1 span { color: #f59e0b; }
+    .muted { color: #b8bac3; }
+    .button {
+      display: inline-block;
+      margin: 12px 8px 8px 0;
+      padding: 13px 20px;
+      border-radius: 12px;
+      background: #f59e0b;
+      color: #171717;
+      text-decoration: none;
+      font-weight: 750;
+    }
+    .secondary {
+      background: #252832;
+      color: white;
+      border: 1px solid #41434c;
+    }
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+      gap: 15px;
+      margin: 35px 0;
+    }
+    .feature {
+      background: #1b1e25;
+      border: 1px solid #30333c;
+      border-radius: 16px;
+      padding: 22px;
+    }
+    h2 { margin-top: 45px; }
+    footer {
+      border-top: 1px solid #30333c;
+      margin-top: 55px;
+      padding: 25px 0;
+      color: #b8bac3;
+    }
+    a { color: #fbbf24; }
+  </style>
+</head>
+<body>
+  <header>🍳 Pantry<span>Pal</span></header>
+
+  <main>
+    <section class="hero">
+      <p class="muted">YOUR KITCHEN, BETTER ORGANISED</p>
+      <h1>Less searching.<br><span>More cooking.</span></h1>
+      <p class="muted">
+        Import recipes from websites, plan your meals
+        and organise your shopping list — all in one place.
+      </p>
+      <a class="button"
+         href="https://github.com/Anarchyukz/PantryPal/releases">
+        Get PantryPal
+      </a>
+      <a class="button secondary"
+         href="https://github.com/Anarchyukz/PantryPal">
+        View source code
+      </a>
+    </section>
+
+    <h2>Everything for your kitchen</h2>
+    <section class="features">
+      <div class="feature">
+        <h3>📖 Your recipes</h3>
+        <p class="muted">Keep your favourite recipes organised in one place.</p>
+      </div>
+      <div class="feature">
+        <h3>🔎 Recipe importing</h3>
+        <p class="muted">Find recipes online and bring them into your collection.</p>
+      </div>
+      <div class="feature">
+        <h3>🗓️ Meal planning</h3>
+        <p class="muted">Plan meals for the week and combine ingredients into a shopping list.</p>
+      </div>
+      <div class="feature">
+        <h3>❤️ Support the project</h3>
+        <p class="muted">PantryPal is free and open source. Donations help fund future development.</p>
+        <a href="https://ko-fi.com/Anarxhyukz">Donate on Ko-fi</a>
+      </div>
+    </section>
+
+    <h2>Free. Open source. Community supported.</h2>
+    <p class="muted">
+      PantryPal is released under the MIT licence.
+      Explore the code, report issues and help the project grow.
+    </p>
+  </main>
+
+  <footer>
+    PantryPal · Open-source Android app · MIT licence
+  </footer>
+</body>
+</html>
